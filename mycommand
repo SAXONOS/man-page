@@ -13,7 +13,7 @@ Detailed description of what mycommand does.
 \fB-h\fR, \fB--help\fR 
 Show help message and exit. 
 .TP 
-9 \fB-v\fR, \fB--version\fR 
+\fB-v\fR, \fB--version\fR 
 Show version information and exit. 
 .SH EXAMPLES 
 .TP 
