@@ -1,0 +1,25 @@
+.TH MYCOMMAND  1 "27 June 2024" "1.0" "My Command Manual" 
+.SH NAME 
+mycommand \- Miscellaneous functions & instructions in roff language for Bas    h shell & C programming language. 
+.SH SYNOPSIS 
+.B mycommand 
+[\fIOPTION\fR]... [\fIFILE\fR]... 
+.SH DESCRIPTION 
+.B mycommand is a simple command that performs a specific task. 
+.PP 
+Detailed description of what mycommand does. 
+.SH OPTIONS 
+.TP 
+\fB-h\fR, \fB--help\fR 
+Show help message and exit. 
+.TP 
+9 \fB-v\fR, \fB--version\fR 
+Show version information and exit. 
+.SH EXAMPLES 
+.TP 
+\fBmycommand -h\fR 
+Show the help message. 
+.SH AUTHOR 
+Written by SAXON 
+.SH SEE ALSO 
+.BR othercommand (1).
