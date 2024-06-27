@@ -25,13 +25,21 @@ If the man page is for a command created by user, it usually should go into /usr
 
 NOTE: Type "man man" and you will see that 7 corresponds to "Miscellaneous macro  packages, man(7), groff(7), man-pages(7)
 
->> sudo mkdir -p /usr/local/share/man/man7        ONE directory per command must be created!
+ONE directory per command must be created!
+
+>> sudo mkdir -p /usr/local/share/man/man7
+
+Copy your roff file into new directory and remember that it is a read-only directory, the reason for the tranfer...
 
 >> sudo cp ~/home/yourusername/mycommand.7 /usr/local/share/man/man7/
 
->> sudo mandb      UPDATE Manual database!
+UPDATE Manual database!
 
->> man mycommand   TO VIEW...
+>> sudo mandb
+
+TO VIEW... Call your new command, cool?
+
+>> man mycommand   
 
 
 
